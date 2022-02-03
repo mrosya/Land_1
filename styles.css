@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	height: 3000px;
+}
+
+.topnav {
+	z-index: 1;
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	background-color: black;
+	color: white;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+	
+img {
+    max-width: 100%;
+}
+
+h1 {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	text-align:center;
+	color: rgb(217, 210, 191);  
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {
+	overflow: hidden;
+}
+
+//Блоки с товарами
+.conteiner_1 {
+	border-width: 6px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 7px;
+}
+
+.conteiner_1 img {
+	float: left;
+}
+
+.conteiner_2 {
+	border-width: 6px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 7px;
+	margin-top: -5px;
+}
+
+.conteiner_2 img {
+	float: right;
+}
